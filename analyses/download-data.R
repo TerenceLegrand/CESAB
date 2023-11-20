@@ -13,3 +13,15 @@ download_data(database = "wildfinder",
               url_database = "https://raw.githubusercontent.com/rdatatoolbox/datarepo/main/data/wildfinder/wildfinder-mammals_list.csv",
               file_format = ".csv",
               data_name = "wildfinder-mammals_list")
+
+# ecoregion list
+download_data(database = "wildfinder",
+              url_database = "https://raw.githubusercontent.com/rdatatoolbox/datarepo/main/data/wildfinder/wildfinder-ecoregions_list.csv",
+              file_format = ".csv",
+              data_name = "wildfinder-ecoregions_list")
+
+# ecoregion species
+download_data(database = "wildfinder",
+              url_database = "https://raw.githubusercontent.com/rdatatoolbox/datarepo/main/data/wildfinder/wildfinder-ecoregions_species.csv",
+              file_format = ".csv",
+              data_name = "wildfinder-ecoregions_species")
