@@ -32,3 +32,11 @@ devtools::load_all(here::here())
 
 source(here::here("analyses", "download-data.R"))
 
+# Biodiversity analysis
+
+source(here::here("analyses", "biodiversity-analyses.R"))
+
+
+
+quarto::quarto_render(input = "index.qmd",
+                        output_format = "html")

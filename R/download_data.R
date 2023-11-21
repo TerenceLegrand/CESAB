@@ -6,11 +6,9 @@
 #' @param file_format 
 #' @param data_name 
 #'
-#' @return NULL
-#' @export NULL 
-#'
-#' @examples
-#' 
+#' @return 
+#' @export
+
 download_data <- function(database = NULL, url_database = NULL, file_format = NULL, data_name = NULL) {
   
   if (is.null(database) == TRUE) {

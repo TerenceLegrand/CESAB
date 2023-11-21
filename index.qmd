@@ -1,0 +1,34 @@
+---
+title: "Have you seen my teddy bear?"
+format: html
+editor: visual
+---
+
+```{r}
+#| echo: false
+devtools::load_all()
+```
+
+
+
+## In how many ecoregions we can find Ursidae species ?
+
+```{r}
+#| label: table_species
+
+ursidae_ecoregions <- ecoregion_per_taxa(taxa = "Ursidae", taxa_level = "family")
+knitr::kable(ursidae_ecoregions)
+
+```
+
+```{r}
+#| label: plot_species
+
+p <- visualisation_ecoregion_per_taxa(ursidae_ecoregions)
+plot(p)
+
+```
+
+## Dataset used
+
+
