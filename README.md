@@ -18,8 +18,8 @@
 
 ## Overview
 
-This research compendium aims to understand how reproductibility must be
-implemented in a research project.
+This research compendium aims to understand how reproductibility should
+be implemented in a research project.
 
 ## Features
 
@@ -37,8 +37,6 @@ This repository is structured as follow:
 
 - [`R/`](https://github.com/pole-emploi/CESAB/tree/main/R): contains R
   functions developed especially for this project
-
-- **{{ LIST ADDITIONAL FILES/FOLDER }}**
 
 ## Installation
 

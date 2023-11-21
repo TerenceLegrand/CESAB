@@ -38,7 +38,7 @@ CESAB <img src="man/figures/compendium-sticker.png" align="right" style="float:r
 
 ## Overview
 
-This research compendium aims to understand how reproductibility must be implemented in a research project.
+This research compendium aims to understand how reproductibility should be implemented in a research project.
 
 
 
@@ -61,10 +61,6 @@ main R script to run the entire project
 - [`R/`](https://github.com/pole-emploi/CESAB/tree/main/R):
 contains R functions developed especially for this project
 
-- **{{ LIST ADDITIONAL FILES/FOLDER }}**
-
-
-
 ## Installation
 
 To install this compendium:
@@ -75,8 +71,6 @@ this repository using the GitHub interface.
 your fork using `git clone fork-url` (replace `fork-url` by the URL of your fork). 
 Alternatively, open [RStudio IDE](https://posit.co/products/open-source/rstudio/) 
 and create a New Project from Version Control.
-
-
 
 ## Usage
 
