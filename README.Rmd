@@ -44,7 +44,7 @@ This research compendium aims to understand how reproductibility must be impleme
 
 ## Features
 
-The main purpose of this compendium is to... **{{ DESCRIBE THE MAIN FEATURES }}**
+The main purpose of this compendium is to load datasets
 
 
 

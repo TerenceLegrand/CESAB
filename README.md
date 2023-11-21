@@ -23,8 +23,7 @@ implemented in a research project.
 
 ## Features
 
-The main purpose of this compendium is to… **{{ DESCRIBE THE MAIN
-FEATURES }}**
+The main purpose of this compendium is to load datasets
 
 ## Content
 
