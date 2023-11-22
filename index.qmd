@@ -2,6 +2,9 @@
 title: "Have you seen my teddy bear?"
 format: html
 editor: visual
+
+params:
+  mammals_family: "Ursidae"
 ---
 
 ```{r}
@@ -16,15 +19,15 @@ devtools::load_all()
 ```{r}
 #| label: table_species
 
-ursidae_ecoregions <- ecoregion_per_taxa(taxa = "Ursidae", taxa_level = "family")
-knitr::kable(ursidae_ecoregions)
+family_ecoregions <- ecoregion_per_taxa(taxa = params$mammals_family, taxa_level = "family")
+knitr::kable(family_ecoregions)
 
 ```
 
 ```{r}
 #| label: plot_species
 
-p <- visualisation_ecoregion_per_taxa(ursidae_ecoregions)
+p <- visualisation_ecoregion_per_taxa(family_ecoregions)
 plot(p)
 
 ```
